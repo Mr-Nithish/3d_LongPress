@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header_progress">
+            <div class="header_progress_line"></div>
+        </div>
+    </header>
+    <main class="app">
+        <section class="section">
+            <div class="section_wrapper">
+                <div class="section_title">
+                    <h1>Transform Your Career</h1>
+                </div>
+                <div class="section_paragraph">
+                    <p>With industry influenced training,
+                        Turn desires into reality
+                    </p>
+                </div>
+                <div class="section_extra">
+                    <span>Long Press --(ANYWHERE)</span>
+                </div>
+            </div>
+        </section>
+        <section class="next"></section>
+    </main>
+    <canvas id="canvas"></canvas>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "@splinetool/runtime": "https://unpkg.com/@splinetool/runtime@1.2.4/build/runtime.js"
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
